@@ -1,0 +1,50 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height: 100vh;
+
+    /* Colorful gradient background */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+
+    /* Center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+
+    /* Bright accent color */
+    color: #ffdd57;
+
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Subheading */
+h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    /* Soft contrasting color */
+    color: #e0e0ff;
+}
+
+/* Optional hover effect */
+h1:hover {
+    color: #ff9f43;
+    transition: color 0.3s ease;
+}
